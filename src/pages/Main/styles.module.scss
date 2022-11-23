@@ -1,0 +1,35 @@
+.main {
+	width: 100vw;
+	height: 100vh;
+	background: #091138;
+
+	&__span {
+		display: block;
+		font-weight: bold;
+		font-size: 1.5rem;
+		width: fit-content;
+		margin: 5rem auto 0;
+	}
+
+	&__content {
+		position: relative;
+		width: 60vw;
+		height: 40vw;
+		background: #efefef;
+		border-radius: 3px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 2rem;
+		overflow: hidden;
+	}
+
+	&__title {
+		text-align: center;
+	}
+
+	&__notes {
+		height: 60%;
+		overflow-y: auto;
+	}
+}

@@ -1,0 +1,21 @@
+.form {
+	width: 90%;
+	margin: 1rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__input {
+		width: 85%;
+		padding: 0.5rem 1rem;
+		height: 5rem;
+		border-radius: 5px;
+		outline: none;
+		resize: none;
+		line-height: 150%;
+
+		&:focus {
+			border: 1px solid #7128D5;
+		}
+	}
+}
